@@ -1,0 +1,69 @@
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\appsettings.json
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Vacation Inc..exe
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Vacation Inc..deps.json
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Vacation Inc..runtimeconfig.json
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Vacation Inc..runtimeconfig.dev.json
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Vacation Inc..dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\ref\Vacation Inc..dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Vacation Inc..pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..csproj.AssemblyReference.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..AssemblyInfoInputs.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..AssemblyInfo.cs
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..csproj.CoreCompileInputs.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\staticwebassets\Vacation Inc..StaticWebAssets.Manifest.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\staticwebassets\Vacation Inc..StaticWebAssets.xml
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\scopedcss\bundle\Vacation Inc..styles.css
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..RazorTargetAssemblyInfo.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..csproj.CopyComplete
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\ref\Vacation Inc..dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..genruntimeconfig.cache
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Application.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Application.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\MediatR.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Domain.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Domain.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..MvcApplicationPartsAssemblyInfo.cs
