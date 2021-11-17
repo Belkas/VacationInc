@@ -1,4 +1,5 @@
 ﻿using Application.Common.Interfaces;
+using Application.Exceptions;
 using Domain.Entities;
 using Domain.Entities.Orders;
 using Domain.Enums;
@@ -32,8 +33,16 @@ namespace Application.Orders.Commands.CreateOrder
 
             if (order == null)
             {
-                // todo: not exist exception
-                throw new Exception("Order doesn't exist");
+                throw new NotFoundException(request.OrderId, "Order");
+            }
+
+            if (request.IsDamaged || !request.IsGasFilled)
+            {
+                order.ChangeStateToExtraFeesAwaitingExtraFees();
+            }
+            else
+            {
+                order.ChangeStateToCompleted();
             }
 
             var returnOrder = new VehicleReturnOrder 
@@ -43,9 +52,6 @@ namespace Application.Orders.Commands.CreateOrder
                 ReturnTime = DateTime.Now, 
                 Order = order 
             };
-
-
-            order.State = request.IsDamaged || !request.IsGasFilled ? OrderStates.AwaitingExtraFees : OrderStates.Completed;
 
             _context.VehicleReturnOrders.Add(returnOrder);
             await _context.SaveChangesAsync(cancellationToken);

@@ -67,3 +67,6 @@ C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\runtimes
 C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\obj\Debug\net5.0\Vacation Inc..MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\Belkas\source\repos\Vacation Inc\Vacation Inc\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

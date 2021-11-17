@@ -13,6 +13,10 @@ using System.Reflection;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.Repositories;
+using Application.Common.Behaviours;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Http;
 
 namespace Vacation_Inc_
 {
@@ -27,8 +31,12 @@ namespace Vacation_Inc_
 
         public void ConfigureServices(IServiceCollection services)
         {
+            var applicationAssmebly = Assembly.Load("Application");
 
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(fv =>
+            {
+                fv.RegisterValidatorsFromAssembly(applicationAssmebly);
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Vacation_Inc_", Version = "v1" });
@@ -43,7 +51,9 @@ namespace Vacation_Inc_
             services.AddScoped<ICurrencyRepository, CurrencyRepository>();
             services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddMediatR(Assembly.Load("Application"));
+
+            services.AddMediatR(applicationAssmebly);
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

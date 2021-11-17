@@ -1,4 +1,5 @@
 ﻿using Application.Common.Interfaces;
+using Application.Exceptions;
 using Domain.Entities;
 using Domain.Enums;
 using MediatR;
@@ -11,7 +12,6 @@ namespace Application.Orders.Commands.CreateOrder
 {
     public class CreateVehicleOrderCommand : IRequest<Unit>
     {
-        public int Id;
         public DateTime ReservedFrom;
         public DateTime ReservedTo;
         public string Name;
@@ -36,10 +36,9 @@ namespace Application.Orders.Commands.CreateOrder
         {
             var vehicle = _context.Vehicles.FirstOrDefault(x => x.Id == request.VehicleId);
 
-            // todo: exceptions
             if (vehicle == null)
             {
-                throw new Exception("Bab");
+                throw new NotFoundException(request.VehicleId, "Vehicle");
             }
 
             // todo : Fix this+
@@ -50,7 +49,7 @@ namespace Application.Orders.Commands.CreateOrder
 
             if (conflictingReservationTimesOrders.Any())
             {
-                throw new Exception($"conflicting with orders ID: {string.Join(", ", conflictingReservationTimesOrders.Select(x => x.Id.ToString()))}");
+                throw new ConflictingOrderException(conflictingReservationTimesOrders.Select(x => x.Id));
             }
             
             var value = await _currencyRepository.GetExchangeRate(request.DesiredCurrency);

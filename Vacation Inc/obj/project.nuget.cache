@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vF+fOdkTEwDhU88yXjh8Snze7x05gtOg2lAazsC4GhI/ya929GJcrTsRu91rjEO88zCJzO763qss6BRK8Kn19w==",
+  "dgSpecHash": "ouxHPpX/2sINJEnAyOWCr8Ubxw3LywA5m5orbIcwfeJQJWGZHrANbjOhSvGQfwqkGqSaQuMxRMr7mHkx/1sQmg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Belkas\\source\\repos\\Vacation Inc\\Vacation Inc\\Vacation Inc..csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Belkas\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\Belkas\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.4\\fluentvalidation.aspnetcore.10.3.4.nupkg.sha512",
+    "C:\\Users\\Belkas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.4\\fluentvalidation.dependencyinjectionextensions.10.3.4.nupkg.sha512",
     "C:\\Users\\Belkas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Belkas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Belkas\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

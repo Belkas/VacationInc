@@ -1,4 +1,5 @@
 ﻿using Application.Common.Interfaces;
+using Application.Exceptions;
 using Domain.Entities;
 using Domain.Enums;
 using MediatR;
@@ -30,10 +31,10 @@ namespace Application.Orders.Commands.CreateOrder
 
             if (order == null)
             {
-                throw new Exception("Bab");
+                throw new NotFoundException(request.OrderId, "Order");
             }
 
-            order.State = OrderStates.Paid;
+            order.ChangeStateToPaid();
             await _context.SaveChangesAsync(cancellationToken);
 
             return Unit.Value;
