@@ -35,7 +35,6 @@ namespace Application.Orders.Commands.CreateOrder
         public async Task<Unit> Handle(CreateVehicleOrderCommand request, CancellationToken cancellationToken)
         {
             var vehicle = _context.Vehicles.FirstOrDefault(x => x.Id == request.VehicleId);
-
             if (vehicle == null)
             {
                 throw new NotFoundException(request.VehicleId, "Vehicle");

@@ -7,7 +7,7 @@ namespace Application.Orders.Commands.CreateVehicleOrder
     {
         public CreateVehicleOrderCommandValidator()
         {
-            RuleFor(x => x.ReservedFrom).LessThan(x => x.ReservedTo);
+
         }
     }
 }

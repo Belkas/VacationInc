@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Vacation_Inc_
+namespace Vacation_Inc
 {
     public class Program
     {

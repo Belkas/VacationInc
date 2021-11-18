@@ -18,7 +18,7 @@ namespace Infrastructure.Repositories
         {
             var result = await _client.GetAsync("Live");
             var json = JObject.Parse(await result.Content.ReadAsStringAsync());
-            // todo: move USD part to a variable
+            // Leaving USD as part of a key, since trial version only allows USD -> something, not something difficult to change after getting non trial version
             return (decimal)json["quotes"][$"USD{currency}"];
         }
     }

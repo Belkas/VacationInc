@@ -14,11 +14,9 @@ using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.Repositories;
 using Application.Common.Behaviours;
-using FluentValidation;
 using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Http;
 
-namespace Vacation_Inc_
+namespace Vacation_Inc
 {
     public class Startup
     {
@@ -33,16 +31,18 @@ namespace Vacation_Inc_
         {
             var applicationAssmebly = Assembly.Load("Application");
 
+            services.AddTransient<ApiKeyHandler>();
+
             services.AddControllers().AddFluentValidation(fv =>
             {
                 fv.RegisterValidatorsFromAssembly(applicationAssmebly);
             });
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Vacation_Inc_", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Vacation_Inc", Version = "v1" });
             });
 
-            services.AddTransient<ApiKeyHandler>();
             services.AddHttpClient(HttpClientConstants.CurrencyLayer, c =>
             {
                 c.BaseAddress = new Uri("http://api.currencylayer.com/");
@@ -51,7 +51,6 @@ namespace Vacation_Inc_
             services.AddScoped<ICurrencyRepository, CurrencyRepository>();
             services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
             services.AddMediatR(applicationAssmebly);
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
         }
@@ -75,7 +74,6 @@ namespace Vacation_Inc_
             {
                 endpoints.MapControllers();
             });
-
         }
     }
 }
